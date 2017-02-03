@@ -1,0 +1,19 @@
+.global_class::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#last-item-main-image, #last-item-no-image {
+	width: 100%;
+	height: 100%;
+}
+
+.item_price{
+	color:white !important;
+}
+
+#header_subtotal{
+	color: white !important;
+}
+

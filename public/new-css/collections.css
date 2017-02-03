@@ -1,0 +1,141 @@
+.global_class::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h1 {
+	text-align: center; margin-top: 50px;
+}
+
+.first_coll {
+	margin-top: 200px;
+	float: left;
+}
+
+.second_coll{
+	margin-top: 50px;
+	float: right;
+}
+
+.third_coll{
+	margin-top: 230px;
+	float: left;
+}
+
+.fourth_coll {
+	float: right;
+	margin-top: 300px;
+}
+
+.fivth_coll{
+	float: left;
+}
+
+.sixth_coll{
+	margin-top: 300px;
+	float: right;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 100px;
+	display:inline-block;
+}
+
+.instagram-tag {
+	text-align: center;
+	margin-bottom: 50px;
+	display:inline-block;
+}
+
+.collection-responsive {
+	height:100%;
+	width: 100%;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+.collection-description { 
+	word-wrap: break-word;
+}
+
+.collection{
+	display: block;
+}
+
+.coll_name{
+	font-size: 4em;
+	color: #f64243;
+}
+
+@media(max-width: 1024px){
+	img.img-responsive.collection-responsive {
+		filter: grayscale(0%) !important;
+	}
+}
+
+.col-md-4.col-sm-4.col-xs-6.back,
+.col-md-6.col-sm-6.col-xs-6.back,
+.col-md-6.col-sm-6.col-xs-12.back {
+	margin-top: 0;
+}
+
+@media(max-width: 991px){
+	.col-md-5.col-sm-6.col-xs-6.col-lg-5.collection {
+		display: block;
+		margin-top: 10px !important;
+		float: left !important;
+	}
+	.collection-description {
+		word-wrap: normal;
+	}
+	.coll_name {
+		font-size: 40px;
+	}
+	.collection-cont h1 {
+		font-size: 27px;
+	}
+}
+
+@media(max-width: 767px){
+	.coll_name {
+		font-size: 32px;
+	}
+	.collection-cont h1 {
+		font-size: 25px;
+	}
+}
+
+@media(max-width: 640px){
+
+	.collection-cont h1 {
+		font-size: 22px;
+	}
+}
+
+@media(max-width: 480px){
+	.col-md-5.col-sm-6.col-xs-6.col-lg-5.collection {
+		margin: 0 auto;
+		margin-top:10px !important;
+		float: none !important;
+		width: 75%;
+	}
+	.collection-cont h1 {
+		font-size: 18px;
+	}
+	.coll_name {
+		font-size: 25px;
+	}
+}
+
+@media(max-width: 400px){
+	.col-md-5.col-sm-6.col-xs-6.col-lg-5.collection {
+		width: 85%;
+	}
+}
+
+@media(max-width: 357px){
+	.col-md-5.col-sm-6.col-xs-6.col-lg-5.collection {
+		width: 90%;
+	}
+}

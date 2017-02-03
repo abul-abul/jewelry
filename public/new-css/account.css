@@ -1,0 +1,70 @@
+.global_class::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.account-title{
+	font-size: 1.3em;
+	margin-left: 500px;
+}
+
+.account-menu{
+	padding: 0px;
+}
+
+.account-content{
+	border: 0.5px solid grey;
+	margin-left: 20px;
+}
+
+.content-submenu >li{
+	border: 1px solid grey;
+	padding: 9px 1px 6px 33px;
+	margin-bottom: 7px;
+}
+
+.content-title{
+	border:1px solid grey;
+    padding: 9px 0 0 15px;
+    height: 40px;
+    margin: -1px -16px 17px -16px;
+}
+
+.address{
+	border-bottom: 1px  solid grey;
+}
+
+.right{
+	margin-left:-80px;
+}
+
+.shipping_address{
+	margin-top:10px;
+}
+
+.ship_edit{
+	margin-left:35px
+}
+
+.active, .active:hover{
+	background-color:#f64243 !important; 
+	color:white !important;
+}
+
+.btn-file:hover {
+    background-color: white;
+    color: red;
+}
+/*------------------------------- Responsiveness ---------------------------------*/
+
+@media(max-width: 991px){
+  .account-content{
+    margin-left: 0px;
+  }
+
+  .ship_edit{
+  	margin-left: -15px;
+  }
+}
+

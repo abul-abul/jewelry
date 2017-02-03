@@ -1,0 +1,17 @@
+.global_class::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.top{
+	font-size: 2em;
+}
+
+.question >li{
+	font-size: 1.2em
+}
+
+.answer{
+	font-size: 1.1em
+}

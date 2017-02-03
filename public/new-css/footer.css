@@ -1,0 +1,136 @@
+.global_class::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.list-unstyled >li >a ,.list-unstyled >li > t  .list-unstyled >t, .list-unstyled>a{
+font-family:Verdana;
+color: black;
+
+}
+.bb{
+font-size: 1.2em;
+color : black
+
+}
+
+number{
+	color:#B40404;
+	font-size: 1.3em;
+}
+
+.below-foot{
+	background-color: black;
+	color: black;
+	font-family:Verdana;
+
+}
+.below-foot >div > center > a{
+	color:white;
+	font-family:Verdana;
+}
+
+.below-foot >div > center {
+	color:white;
+}
+
+.below-foot >div > center > a:hover{
+	color:#B40404;
+}
+.info{
+	color:black; 
+	background-color:white;
+	border-color:gray;
+	font-family:Verdana;
+}
+
+.paypall{
+    width: 21%;
+    height: auto;
+    float: right;
+    margin-top: 21px; 
+}
+
+.about{
+	color:black;
+	font-family:Verdana;
+
+}
+
+ol>li{
+   	color:black;
+   }
+
+#exampleInputEmail2{
+    border-color: black!important;
+}
+#exampleInputEmail3{
+	 border-color: black!important;
+}
+
+.email_btn{ 
+	border: 1px solid black!important;
+}
+
+.footer_ohscarlett{
+	display: block;
+}
+.footer_ohscarlett1{
+	color: #B40404;
+	font-weight: bold;
+}
+.footer_ohscarlett2{
+	font-weight: bold;
+}
+.footer_number{
+	color: #B40404;
+    font-size: 1.3em;
+    margin-right: 6px;
+}
+.about1{
+	font-weight: bold;
+	color: #000;
+	font-size: 15px;
+}
+.footer_menu{
+	width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    color: #fff;
+}
+.footer_menu a{
+	color: #fff;
+}
+.footer_menu a:hover{
+	color: #f64243;
+}
+
+.footer_container{
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer{
+	padding: 50px 0 0;
+	width: 100%;
+	display: inline-block;
+}
+
+.upper-foot a{
+	display: block;
+}
+
+.footer .home-letter >div >input {
+	background-color: #fff;
+    color: #555;
+}
+
+/*------------------------------- Responsiveness ---------------------------------*/
+
+@media(max-width: 1000px){
+	.footer_menu{
+		font-size: 12px;
+	}
+}

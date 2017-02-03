@@ -1,0 +1,32 @@
+.global_class::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.img-responsive {
+	width:100px;
+}
+
+.order-main-image {
+	width: 100px;
+}
+
+.no_orders{
+	display: block;
+	text-align: center; 
+	font-size: 2em;
+}
+.order-container .row.featured-boxes.col-lg-10.col-md-10.col-xs-12.col-sm-12 {
+	margin: 0 auto;
+	float: none;
+}
+
+.order-container .container.col-lg-12.col-md-12.col-xs-12.col-sm-12 {
+	text-align: center;
+}
+
+.order-container .shop_table td.product-quantity {
+	text-align: center;
+	padding: 8px 0;
+}

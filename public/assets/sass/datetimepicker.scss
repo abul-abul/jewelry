@@ -1,0 +1,44 @@
+//Core mixins
+@import "mixins/_mixins";
+
+.input-group {
+	.input-group-addon {
+		border-radius: 0;
+	}
+}
+
+.bootstrap-datetimepicker-widget {
+	a {
+		color: $primary-color;
+		&:hover,
+		&:focus {
+			color: $dark;
+		}
+	}
+	.btn {
+		border: 1px solid transparent;
+		min-width: 0;
+		padding: 6px 12px;
+		text-transform: none;
+		&:hover,
+		&:focus {
+			background-color: transparent;
+			border-color: transparent;
+			color: $dark;
+		}
+	}
+	&.dropdown-menu {
+		background-color: $white;
+		border: 1px solid #cccccc;
+		border: 1px solid rgba(0, 0, 0, 0.15);
+		-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+	}
+	
+	td.active, td.active:hover {
+		background-color: $primary-color;
+	}
+	td.today:before {
+		border-bottom-color: $primary-color;
+	}
+}
